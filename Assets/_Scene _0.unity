@@ -466,7 +466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585370772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -566,6 +566,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3850678249122688301, guid: 7b13960aa726a4ec3bfc1a3990aa3508,
+        type: 3}
+      propertyPath: m_Name
+      value: AppleTree
+      objectReference: {fileID: 0}
     - target: {fileID: 7208135474909115749, guid: 7b13960aa726a4ec3bfc1a3990aa3508,
         type: 3}
       propertyPath: leftAndRightEdge
@@ -581,11 +586,6 @@ PrefabInstance:
       propertyPath: speed
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 3850678249122688301, guid: 7b13960aa726a4ec3bfc1a3990aa3508,
-        type: 3}
-      propertyPath: m_Name
-      value: AppleTree
-      objectReference: {fileID: 0}
     - target: {fileID: 8010835896674746224, guid: 7b13960aa726a4ec3bfc1a3990aa3508,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -594,7 +594,7 @@ PrefabInstance:
     - target: {fileID: 8010835896674746224, guid: 7b13960aa726a4ec3bfc1a3990aa3508,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8010835896674746224, guid: 7b13960aa726a4ec3bfc1a3990aa3508,
         type: 3}
